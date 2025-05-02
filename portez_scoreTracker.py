@@ -125,7 +125,7 @@ name_entry.grid(row=0, column=1, padx=5, pady=5)
 
 tk.Label(root_window, text="Score:").grid(row=1, column=0, padx=5, pady=5)
 score_entry = tk.Entry(root_window)
-score_entry.grid(row=1, column=1, padx=5, pady=5)
+score_entry.grid(row=1, column=1,columnspan=2,padx=5, pady=5)
 
 save_button = tk.Button(root_window, text="Save Score", command=save_student_score)
 save_button.grid(row=2, column=0, columnspan=2, pady=10)
